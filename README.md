@@ -10,6 +10,8 @@
 
 > We have caveman system prompts and skills to reduce token use — why not bake it into the model itself?
 
+> Inspired by https://github.com/JuliusBrussee/caveman
+
 </div>
 
 ---
