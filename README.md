@@ -49,6 +49,35 @@ OogaBoogaLM eliminates this entirely — the compression behavior lives in the w
 
 ---
 
+## 📊 Benchmark Results
+
+> **Evaluation:** 49-prompt benchmark across coding and general instruction tasks, comparing OogaBoogaLM against the base `Qwen/Qwen2.5-7B-Instruct` model with no system prompt on either model. Metric measured: output token count. Quality/correctness evaluation is not included in this benchmark.
+> - **Prompts:** 35 coding + 14 general instruction tasks
+> - **Metric:** Output token count via model-native tokenizer & compression ratio (base model output token / oogaboogalm output token)
+> - **No specified system prompt** used on either model
+> - **Models compared:** `huggingface.co/Mintzs/caveman-qwen` vs `Qwen/Qwen2.5-7B-Instruct`
+> - Raw results available in [`benchmark_results.csv`](./benchmark_results.csv)
+
+### Token Compression Summary
+
+| Metric | OogaBoogaLM | Base Model | Delta |
+|---|---:|---:|---:|
+| Mean output tokens | 82.8 | 473.7 | **−390.9 tokens** |
+| Median output tokens | 67.0 | 504.5 | **−437.5 tokens** |
+| Std. deviation | 53.8 | 170.9 | **−68.5% less variance** |
+| Token range | 25–312 | 7–795 | Much tighter upper bound |
+| Win rate (brevity) | **48 / 49 prompts** | 1 / 49 prompts | 98.0% win rate |
+| Overall compression | **5.72x shorter** | baseline | **82.5% token reduction** |
+
+### By Category
+
+| Category | OogaBoogaLM | Base Model | Savings | Compression |
+|---|---:|---:|---:|---:|
+| Coding (35 prompts) | 85.4 tokens | 498.7 tokens | **82.9%** | 5.84x |
+| General (14 prompts) | 76.9 tokens | 415.4 tokens | **81.5%** | 5.40x |
+
+The compression effect holds consistently across both coding and general prompts, with slightly stronger gains on coding tasks.
+
 ## Quickstart
 
 ### Run Locally (Ollama)
