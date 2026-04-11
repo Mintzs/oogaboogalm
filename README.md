@@ -66,7 +66,7 @@ OogaBoogaLM eliminates this entirely — the compression behavior lives in the w
 | Median output tokens | 67.0 | 504.5 | **−437.5 tokens** |
 | Std. deviation | 53.8 | 170.9 | **−68.5% less variance** |
 | Token range | 25–312 | 7–795 | Much tighter upper bound |
-| Win rate (brevity) | **48 / 49 prompts** | 1 / 49 prompts | 98.0% win rate |
+| Win rate | **48 / 49 prompts** | 1 / 49 prompts | 98.0% win rate |
 | Overall compression | **5.72x shorter** | baseline | **82.5% token reduction** |
 
 ### By Category
