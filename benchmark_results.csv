@@ -1,0 +1,100 @@
+model,prompt,tokens
+huggingface.co/Mintzs/caveman-qwen:latest,How do I reverse a list in Python?,59
+qwen2.5:7b,How do I reverse a list in Python?,302
+huggingface.co/Mintzs/caveman-qwen:latest,Explain what a decorator does in Python.,75
+qwen2.5:7b,Explain what a decorator does in Python.,700
+huggingface.co/Mintzs/caveman-qwen:latest,Write a function that checks if a string is a palindrome.,40
+qwen2.5:7b,Write a function that checks if a string is a palindrome.,338
+huggingface.co/Mintzs/caveman-qwen:latest,What is the difference between a list and a tuple in Python?,93
+qwen2.5:7b,What is the difference between a list and a tuple in Python?,540
+huggingface.co/Mintzs/caveman-qwen:latest,How do I read a CSV file in Python?,41
+qwen2.5:7b,How do I read a CSV file in Python?,562
+huggingface.co/Mintzs/caveman-qwen:latest,Explain how async/await works in JavaScript.,52
+qwen2.5:7b,Explain how async/await works in JavaScript.,656
+huggingface.co/Mintzs/caveman-qwen:latest,Write a SQL query to find the second highest salary in a table.,51
+qwen2.5:7b,Write a SQL query to find the second highest salary in a table.,252
+huggingface.co/Mintzs/caveman-qwen:latest,What is a closure and why is it useful?,94
+qwen2.5:7b,What is a closure and why is it useful?,735
+huggingface.co/Mintzs/caveman-qwen:latest,How do I handle exceptions in Python? Give an example.,66
+qwen2.5:7b,How do I handle exceptions in Python? Give an example.,498
+huggingface.co/Mintzs/caveman-qwen:latest,Write a function to find the factorial of a number using recursion.,209
+qwen2.5:7b,Write a function to find the factorial of a number using recursion.,226
+huggingface.co/Mintzs/caveman-qwen:latest,Explain the difference between == and === in JavaScript.,34
+qwen2.5:7b,Explain the difference between == and === in JavaScript.,451
+huggingface.co/Mintzs/caveman-qwen:latest,How do I merge two dictionaries in Python?,72
+qwen2.5:7b,How do I merge two dictionaries in Python?,431
+huggingface.co/Mintzs/caveman-qwen:latest,Write a binary search algorithm in Python.,94
+qwen2.5:7b,Write a binary search algorithm in Python.,452
+huggingface.co/Mintzs/caveman-qwen:latest,What is the purpose of __init__ in a Python class?,67
+qwen2.5:7b,What is the purpose of __init__ in a Python class?,332
+huggingface.co/Mintzs/caveman-qwen:latest,How do I connect to a PostgreSQL database in Python?,47
+qwen2.5:7b,How do I connect to a PostgreSQL database in Python?,59
+qwen2.5:7b,Explain what a REST API is and how it works.,715
+huggingface.co/Mintzs/caveman-qwen:latest,Write a function to remove duplicates from a list without using set().,42
+qwen2.5:7b,Write a function to remove duplicates from a list without using set().,320
+huggingface.co/Mintzs/caveman-qwen:latest,What is the difference between GET and POST HTTP methods?,40
+qwen2.5:7b,What is the difference between GET and POST HTTP methods?,462
+huggingface.co/Mintzs/caveman-qwen:latest,How do I sort a list of dictionaries by a specific key in Python?,27
+qwen2.5:7b,How do I sort a list of dictionaries by a specific key in Python?,382
+huggingface.co/Mintzs/caveman-qwen:latest,Explain what a virtual environment is and why you should use one.,107
+qwen2.5:7b,Explain what a virtual environment is and why you should use one.,458
+huggingface.co/Mintzs/caveman-qwen:latest,Write a Python function that generates the Fibonacci sequence up to n terms.,82
+qwen2.5:7b,Write a Python function that generates the Fibonacci sequence up to n terms.,319
+huggingface.co/Mintzs/caveman-qwen:latest,What is the time complexity of common sorting algorithms?,63
+qwen2.5:7b,What is the time complexity of common sorting algorithms?,545
+huggingface.co/Mintzs/caveman-qwen:latest,How do I use list comprehensions in Python? Provide examples.,312
+qwen2.5:7b,How do I use list comprehensions in Python? Provide examples.,795
+huggingface.co/Mintzs/caveman-qwen:latest,"Explain the difference between SQL JOIN types: INNER, LEFT, RIGHT, FULL.",156
+qwen2.5:7b,"Explain the difference between SQL JOIN types: INNER, LEFT, RIGHT, FULL.",624
+huggingface.co/Mintzs/caveman-qwen:latest,Write a function to flatten a nested list in Python.,32
+qwen2.5:7b,Write a function to flatten a nested list in Python.,638
+huggingface.co/Mintzs/caveman-qwen:latest,What is Git branching and how does it work?,79
+qwen2.5:7b,What is Git branching and how does it work?,605
+huggingface.co/Mintzs/caveman-qwen:latest,How do I create a simple HTTP server in Python?,68
+qwen2.5:7b,How do I create a simple HTTP server in Python?,561
+huggingface.co/Mintzs/caveman-qwen:latest,Explain what dependency injection is and give an example.,97
+qwen2.5:7b,Explain what dependency injection is and give an example.,577
+huggingface.co/Mintzs/caveman-qwen:latest,Write a Python script that counts word frequency in a text file.,47
+qwen2.5:7b,Write a Python script that counts word frequency in a text file.,522
+huggingface.co/Mintzs/caveman-qwen:latest,What is the difference between a stack and a queue?,43
+qwen2.5:7b,What is the difference between a stack and a queue?,441
+huggingface.co/Mintzs/caveman-qwen:latest,How do I implement a linked list in Python?,145
+qwen2.5:7b,How do I implement a linked list in Python?,726
+huggingface.co/Mintzs/caveman-qwen:latest,Explain the MVC design pattern.,62
+qwen2.5:7b,Explain the MVC design pattern.,500
+huggingface.co/Mintzs/caveman-qwen:latest,Write a regular expression to validate an email address.,129
+qwen2.5:7b,Write a regular expression to validate an email address.,509
+huggingface.co/Mintzs/caveman-qwen:latest,What are Python generators and when should I use them?,198
+qwen2.5:7b,What are Python generators and when should I use them?,654
+huggingface.co/Mintzs/caveman-qwen:latest,How do I unit test a function in Python using pytest?,79
+qwen2.5:7b,How do I unit test a function in Python using pytest?,569
+huggingface.co/Mintzs/caveman-qwen:latest,What is the capital of France?,25
+qwen2.5:7b,What is the capital of France?,7
+huggingface.co/Mintzs/caveman-qwen:latest,Explain how photosynthesis works in simple terms.,73
+qwen2.5:7b,Explain how photosynthesis works in simple terms.,295
+huggingface.co/Mintzs/caveman-qwen:latest,What caused the fall of the Roman Empire?,63
+qwen2.5:7b,What caused the fall of the Roman Empire?,526
+huggingface.co/Mintzs/caveman-qwen:latest,How does gravity work according to general relativity?,128
+qwen2.5:7b,How does gravity work according to general relativity?,578
+huggingface.co/Mintzs/caveman-qwen:latest,What is the difference between weather and climate?,92
+qwen2.5:7b,What is the difference between weather and climate?,203
+huggingface.co/Mintzs/caveman-qwen:latest,Explain the water cycle in simple terms.,39
+qwen2.5:7b,Explain the water cycle in simple terms.,179
+huggingface.co/Mintzs/caveman-qwen:latest,Who invented the printing press and why was it important?,63
+qwen2.5:7b,Who invented the printing press and why was it important?,367
+huggingface.co/Mintzs/caveman-qwen:latest,What is inflation and how does it affect the economy?,120
+qwen2.5:7b,What is inflation and how does it affect the economy?,517
+huggingface.co/Mintzs/caveman-qwen:latest,How does the human immune system fight off infections?,50
+qwen2.5:7b,How does the human immune system fight off infections?,636
+huggingface.co/Mintzs/caveman-qwen:latest,What is the Pythagorean theorem and how is it used?,124
+qwen2.5:7b,What is the Pythagorean theorem and how is it used?,397
+huggingface.co/Mintzs/caveman-qwen:latest,Explain the theory of evolution by natural selection.,97
+qwen2.5:7b,Explain the theory of evolution by natural selection.,559
+huggingface.co/Mintzs/caveman-qwen:latest,What are the main causes of climate change?,25
+qwen2.5:7b,What are the main causes of climate change?,416
+huggingface.co/Mintzs/caveman-qwen:latest,How does a combustion engine work?,63
+qwen2.5:7b,How does a combustion engine work?,570
+huggingface.co/Mintzs/caveman-qwen:latest,What is the difference between a virus and a bacterium?,50
+qwen2.5:7b,What is the difference between a virus and a bacterium?,448
+huggingface.co/Mintzs/caveman-qwen:latest,Explain the basics of supply and demand in economics.,142
+qwen2.5:7b,Explain the basics of supply and demand in economics.,533
