@@ -116,14 +116,36 @@ The compression effect holds consistently across both coding and general prompts
 
 Compression gains on the Qwen3 base are dramatically larger than Run 1 primarily because Qwen3-8B defaults to verbose chain-of-thought reasoning, while caveman-qwen3 has been fine-tuned to suppress this and output only the essential answer.
 
----
-
 ### Cross-Run Comparison
 
 | Model | Base | Mean tokens | vs base compression |
 |---|---|---:|---:|
 | caveman-qwen (Run 1) | Qwen2.5-7B-Instruct | 82.8 | 5.72x |
 | caveman-qwen3 (Run 2) | Qwen3-8B | 58.6 | ~27x† |
+
+---
+
+## 📊 HumanEval Benchmark Results (caveman-qwen3 Only)
+### HumanEval+ (EvalPlus) – Coding Accuracy
+
+| Model            | Eval stack                         | HumanEval pass@1 | HumanEval+ pass@1 | Source |
+|------------------|------------------------------------|------------------|-------------------|--------|
+| Base Qwen3‑8B | Transformers, FP16, official eval | ~0.68            | ~0.68            | [Qwen3 Technical Report](https://arxiv.org/html/2505.09388v1) |
+| OogaBoogaLM caveman‑Qwen3 (highest run)   | GGUF (Q4), llama.cpp, local eval  | 0.55             | 0.50             | local EvalPlus run |
+
+### Evaluation Setup
+
+All caveman‑Qwen3 results are from local runs using EvalPlus (HumanEval & HumanEval+), with models loaded via `llama.cpp` from Q4 GGUF weights on a T4 GPU.
+
+### Caveman‑Qwen3 – HumanEval(+) Runs
+
+| Run | Model          | System prompt                         | Extra tags in prompt | Decoding              | HumanEval pass@1 | HumanEval+ pass@1 |
+|-----|----------------|----------------------------------------|----------------------|-----------------------|------------------|-------------------|
+| R1  | caveman‑Qwen3  | `You are a helpful coding assistant` + `Return ONLY valid Python code` | none                 | `temperature=0.0`     | 0.549            | 0.500             |
+| R2  | caveman‑Qwen3  | Same prompt as R1 + disabled Thinking mode     | `/no_think`          | `temperature=0.7`     | 0.201            | 0.177             |
+| R3  | caveman‑Qwen3  | `You are a helpful coding assistant.` | none                 | `temperature=0.0`     | 0.463            | 0.433             |
+
+---
 
 ## Quickstart
 
